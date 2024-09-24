@@ -20,7 +20,7 @@
                 landscapes, a sense of achievement, and the chance to connect
                 deeply with nature and fellow climbers.
               </p>
-              <a href="#">Register for this</a>
+              <a href="#form">Book a Trip Today</a>
             </div>
           </div>
 
@@ -34,7 +34,7 @@
                 environmental awareness, fosters tranquility, and creates
                 unforgettable experiences in serene, blue depths.
               </p>
-              <a href="#">Register for this</a>
+              <a href="#form">Book a Trip Today</a>
             </div>
           </div>
 
@@ -48,10 +48,78 @@
                 Each journey fosters personal growth, creating lasting memories
                 and connections across the globe.
               </p>
-              <a href="#">Register for this</a>
+              <a href="#form">Book a Trip Today</a>
             </div>
           </div>
         </div>
+      </div>
+    </section>
+    <section class="container" id="form">
+      <form class="form-group">
+        <label for="name">Full Name:</label>
+        <input type="text" id="name" name="name" required />
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required />
+
+        <label for="destination">Destination:</label>
+        <input type="text" id="destination" name="destination" required />
+
+        <label for="checkin">Check-in Date:</label>
+        <input type="date" id="checkin" name="checkin" required />
+
+        <label for="checkout">Check-out Date:</label>
+        <input type="date" id="checkout" name="checkout" required />
+
+        <label for="guests">Number of Guests:</label>
+        <input type="number" id="guests" name="guests" min="1" required />
+        <label for="activity">Select Activity:</label>
+        <select id="activity" name="activity" required>
+          <option value="">--Choose an activity--</option>
+          <option value="Mountaining">Mountaining</option>
+          <option value="Scuba Diving">Scuba Diving</option>
+          <option value="World Traveling">World Traveling</option>
+        </select>
+
+        <button type="submit">Book Now</button>
+      </form>
+      <div class="about-Us">
+        <h1>More Details about the Company</h1>
+        <h1>About Us</h1>
+        <p>
+          At <strong>Aoamos Travels</strong>, we specialize in crafting
+          extraordinary adventures that cater to thrill-seekers and explorers
+          alike. Our passion for mountaining, scuba diving, and world traveling
+          drives us to create unforgettable experiences tailored to every
+          adventurer.
+        </p>
+
+        <h2>Mountaining</h2>
+        <p>
+          Conquer majestic peaks with our expert-led expeditions. We offer trips
+          for all skill levels, ensuring safety and excitement as you explore
+          stunning landscapes.
+        </p>
+
+        <h2>Scuba Diving</h2>
+        <p>
+          Dive into the wonders of the underwater world with our comprehensive
+          scuba diving packages. Our certified instructors provide personalized
+          training, taking you to breathtaking dive sites filled with vibrant
+          marine life.
+        </p>
+
+        <h2>World Traveling</h2>
+        <p>
+          Discover the globe’s diverse cultures and landscapes with our
+          thoughtfully curated itineraries. We connect you with local guides and
+          authentic experiences, making each journey unique and enriching.
+        </p>
+
+        <p>
+          Join us at <strong>Aoamos Travels</strong> to ignite your spirit of
+          adventure and create memories that last a lifetime!
+        </p>
       </div>
     </section>
   </body>
