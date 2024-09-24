@@ -5,9 +5,10 @@
   box-sizing: border-box;
 }
 body {
-  background: #1e1f21;
+  background: #81744ed8;
   color: #fff;
 }
+
 .wrapper {
   padding: 10px 10%;
 }
@@ -76,4 +77,73 @@ body {
   padding: 5px 15px;
   margin-top: 10px;
   border-radius: 10px;
+}
+.container {
+  max-width: 1200px;
+  display: flex;
+  justify-content: space-evenly;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form-group {
+  background: #fff;
+  color: black;
+  width: 45%;
+  padding: 20px;
+  border-radius: 8px;
+  outline: 2px solid #f5c541d8;
+  outline-offset: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.form-group label {
+  display: block;
+  padding: 5px;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+
+.form-group input,
+.form-group select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #f57a41d8;
+  border-radius: 4px;
+}
+.form-group button {
+  background-color: #f5c541d8;
+  color: #fff;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-size: 20px;
+  cursor: pointer;
+  margin: 0 auto;
+  font-weight: bold;
+  transition: all 0.5s;
+}
+.form-group button:hover {
+  background-color: #ff3c00d8;
+  transform: scale(1.09);
+}
+.about-Us {
+  background: #fff;
+  color: black;
+  width: 45%;
+  padding: 20px;
+  border-radius: 8px;
+  outline: 2px solid #f5c541d8;
+  outline-offset: 5px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  margin: 20px;
+}
+.about-Us h1,
+.about-Us h2 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.about-Us p {
+  margin-bottom: 10px;
 }
